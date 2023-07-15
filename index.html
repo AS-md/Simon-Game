@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+
+<body>
+  <section>
+    <div class="content">
+      <button id="myBtn" onclick="myFunction()"><i class="fas fa-volume-up"> ON</i></button>
+    </div>
+  </section>
+  <h1 id="level-title">Simon Game</h1>
+  <div class="container">
+    <div class="col-md-4">
+        <div class="row">
+           <div class ="col-md-6 btn green" id="green" type="button">
+            </div>
+           <div class ="col-md-6 btn red" id="red" type="button">
+           </div>
+        </div>
+        <div class="row">
+           <div class ="col-md-6 btn blue" id="blue" type="button">
+            </div>
+           <div class ="col-md-6 btn yellow" id="yellow" type="button">
+           </div>
+        </div>
+  </div>
+  <h2 id="score"></h2>
+  <div class="playbtn" type="button">Play</div>
+  <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+  <script src="game.js" charset="utf-8"></script>
+  <footer>
+    <h6>&copy AS-MD</h6>
+  </footer>
+</body>
+
+</html>
